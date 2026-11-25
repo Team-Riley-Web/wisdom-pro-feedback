@@ -1,0 +1,19 @@
+name: Feature request
+description: An idea that would make Wisdom Pro better for you.
+labels: [feature, triage]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Wisdom Pro to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it help you with?
+  - type: dropdown
+    id: os
+    attributes:
+      label: Computer
+      options: [Mac, Windows, Web version, Doesn't matter]
